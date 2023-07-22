@@ -30,11 +30,43 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 .links {
     display: flex;
     gap: 20px;
     padding-right: 20%;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-section {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.subtext {
+    font-size: 15px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin-right: 35px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
 }
