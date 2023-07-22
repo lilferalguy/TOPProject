@@ -51,11 +51,11 @@ a {
 }
 
 .left-section {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     color: #F9FAF8;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 350px;
 }
 .subtext {
     font-size: 15px;
@@ -69,4 +69,47 @@ button {
     background-color: #3882F6;
     border-radius: 15px;
     color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.q-text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 850px;
+}
+
+.signature {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 500px;
 }
