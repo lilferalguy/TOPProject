@@ -1,0 +1,1 @@
+This will be another one of TheOdinProjects assignments where I'm attempting to build a webpage similar to their example using the knowledge I've gathered so far.

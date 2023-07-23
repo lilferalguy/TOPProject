@@ -67,13 +67,18 @@ a {
 
 button {
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
 }
 
 .info {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex-direction: column;
 }
@@ -82,6 +87,10 @@ button {
     display: flex;
     flex-direction: row;
     margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
 }
 
 p {
@@ -112,4 +121,48 @@ p {
     font-weight: bold;
     margin-left: auto;
     margin-right: 500px;
+}
+
+img {
+    width:400px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E5E7EB;
+    margin-right: auto;
+
+}
+
+.btn2 {
+    border-color: #E5E7EB;
+}
+
+h4 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.signup-subtext {
+    margin-top: auto;
 }
